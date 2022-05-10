@@ -11,7 +11,8 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-
+def test():
+    pass
 @app.route('/index')
 def home():
     return index()
